@@ -1,0 +1,5 @@
+CONFIG_NODE *					T_PTROBJ
+CONFIG_REC *					T_PTROBJ
+GSList *					T_PTROBJ
+const char *					T_PTROBJ
+const char * section				T_PTROBJ
