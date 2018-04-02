@@ -4,7 +4,7 @@ use ExtUtils::MakeMaker;
 # the contents of the Makefile that is written.
 WriteMakefile(
     NAME              => 'Lib::Config',
-    VERSION_FROM      => 'lib/Lib/Config.pm', # finds $VERSION, requires EU::MM from perl >= 5.5
+    VERSION_FROM      => '../lib/Lib/Config.pm', # finds $VERSION, requires EU::MM from perl >= 5.5
     PREREQ_PM         => {}, # e.g., Module::Name => 1.1
     #ABSTRACT_FROM     => 'lib/Lib/Config.pm', # retrieve abstract from module
     AUTHOR            => 'Ailin Nemui <anei@cpan.org>',
