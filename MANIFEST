@@ -1,4 +1,11 @@
-Config.xs
+lib-config/Config.xs
+lib-config/Makefile.PL
+lib-config/iconfig.h
+lib-config/module.h
+lib-config/get.c
+lib-config/parse.c
+lib-config/set.c
+lib-config/write.c
 Makefile.PL
 MANIFEST
 ppport.h
