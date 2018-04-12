@@ -62,6 +62,9 @@ config_open(fname, create_mode)
 int
 config_parse(rec)
 	Lib::Config::Rec::Ptr	rec
+POSTCALL:
+      if (RETVAL != 0)
+	      croak("%s", config_last_error(rec));
 
 int
 config_parse_data(rec, data, input_name)
